@@ -1,0 +1,64 @@
+div ul {
+  display: flex;
+  flex-direction: column;
+}
+
+div ul li {
+  width: 600px;
+  margin-bottom: 20px;
+  padding: 20px;
+
+  list-style: none;
+
+  border-radius: 10px;
+
+  background-color: bisque;
+}
+
+.search_tag {
+  margin-bottom: 20px;
+  padding: 5px;
+}
+
+div ul li .imgWrap2 {
+  width: 100%;
+  padding: 0;
+}
+div ul li .imgWrap2 > li {
+  width: 100%;
+  padding: 0;
+}
+
+.keyword_tag > span {
+  padding: 5px 20px;
+  margin-right: 15px;
+  border: solid 1px #000;
+  border-radius: 50px;
+
+  cursor: pointer;
+}
+
+.keyword_tag > span.on {
+  background-color: rgb(247, 247, 149);
+  color: #aaa;
+  border: solid 1px rgb(247, 247, 149);
+}
+
+.cafe-list-box span {
+  background-color: rgb(247, 247, 149);
+  border-radius: 50px;
+  color: #aaa;
+  padding: 10px 15px;
+}
+.cafe-list-box .cont-wrap {
+  display: flex;
+  justify-content: space-between;
+}
+.cafe-list-box .store-name {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.cafe-list-box .store-img {
+  width: 50%;
+}

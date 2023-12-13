@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cafe in KJ</title>
+    <link rel="stylesheet" href="./lib/styles.css" />
+    <script src="./lib/app.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.7.0.min.js"
+      integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g="
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header>
+      <h1>경주 카페 목록</h1>
+    </header>
+    <div>
+      <!-- <div>
+        <button>제목순 정렬(ㄱㄴㄷ순)</button>
+        <button>초기화</button>
+      </div> -->
+      <div class="search_tag">
+        <input type="text" placeholder="제목만 검색가능합니다." />
+      </div>
+      <div class="keyword_tag">
+        <span class="all">전체보기</span>
+        <span class="dessert on">디저트</span>
+        <span class="view">전망좋은 카페</span>
+        <span class="foreHead">숲머리음식단지</span>
+        <span class="yellowRoad">황리단길</span>
+      </div>
+      <ul class="cafe-list"></ul>
+    </div>
+  </body>
+</html>
